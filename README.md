@@ -40,4 +40,20 @@ Once complete database was created, wrote queries to generate the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
+## Charting
+
+Generated a visualization of the data:
+
+1. Imported the SQL database into Pandas using SQLAlchemy.
+
+2. Used .gitignore to safeguard userid and password
+
+2. Createed a histogram to visualize the most common salary ranges for employees.
+
+3. Created a bar chart of average salary by title.
+
+## Epilogue
+
+The name of Employee with employee ID number 499942 is "April Foolsday".
+
 #### Resources:
