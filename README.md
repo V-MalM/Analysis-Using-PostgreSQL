@@ -59,8 +59,8 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 #### Resources:
 * ERD 'ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
 
-* SQl file 'Employee_Info_schema.sql' of table schemata is in [Schema](EmployeeSQL/SQL_Files).
+* SQl file 'Employee_Info_schema.sql' of table schemata is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files).
 
-* SQl file 'Employee_Info_queries.sql' of queries is in [Queries](EmployeeSQL/SQL_Files).
+* SQl file 'Employee_Info_queries.sql' of queries is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files).
 
 * Jupyter Notebook 'bonus_analysis.ipynb' contains the bonus analysis and visualization.
