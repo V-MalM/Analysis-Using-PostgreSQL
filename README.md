@@ -59,7 +59,7 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 #### Resources:
 * ERD 'ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
 
-* SQl file 'Employee_Info_schema.sql' of table schemata is in ![EmployeeSQL/Data_Engineering](EmployeeSQL/Data_Engineering).
+* SQl file 'Employee_Info_schema.sql' of table schemata is in !['schema'](EmployeeSQL/Data_Engineering).
 
 * SQl file 'Employee_Info_queries.sql' of queries is in ![EmployeeSQL/Data_Engineering](EmployeeSQL/Data_Analysis).
 
