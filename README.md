@@ -40,9 +40,7 @@ Once complete database was created, wrote queries to generate the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Charting
-
-Generated a visualization of the data:
+## Visualization of the data:
 
 1. Imported the SQL database into Pandas using SQLAlchemy.
 
@@ -59,8 +57,10 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 #### Resources:
 * ERD 'ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
 
-* SQl file 'Employee_Info_schema.sql' of table schemata is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files).
+* SQl file [Employee_Info_schema.sql]'(EmployeeSQL/SQL_Files/Employee_Info_schema.sql)' contains table scheme
 
-* SQl file 'Employee_Info_queries.sql' of queries is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files).
+* SQl file [Employee_Info_queries.sql]'(EmployeeSQL/SQL_Files/Employee_Info_queries.sql)' contains queries required for analysis/reports
 
-* Jupyter Notebook 'bonus_analysis.ipynb' contains the bonus analysis and visualization.
+* SQl file 'Employee_Info_queries.sql' for queries is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files/).
+
+* Jupyter Notebook [bonus_analysis.ipynb]'(bonus_analysis.ipynb)' contains the bonus analysis and visualization.
