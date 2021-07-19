@@ -7,7 +7,7 @@ Research on employees of Pewlett Hackard from the 1980s and 1990s from the data 
 The goal was to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, to perform:
 
 1. Data Modeling
-Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/Data_Modeling/ERD.jpg)
+Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/Images/ERD.jpg)
 
 2. Data Engineering
 
@@ -59,8 +59,8 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 #### Resources:
 * ERD 'ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
 
-* SQl file 'Employee_Info_schema.sql' of table schemata is in !['schema'](EmployeeSQL/Data_Engineering).
+* SQl file 'Employee_Info_schema.sql' of table schemata is in [Schema](EmployeeSQL/SQL_Files).
 
-* SQl file 'Employee_Info_queries.sql' of queries is in ![EmployeeSQL/Data_Engineering](EmployeeSQL/Data_Analysis).
+* SQl file 'Employee_Info_queries.sql' of queries is in [Queries](EmployeeSQL/SQL_Files).
 
 * Jupyter Notebook 'bonus_analysis.ipynb' contains the bonus analysis and visualization.
