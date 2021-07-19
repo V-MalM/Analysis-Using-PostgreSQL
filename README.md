@@ -55,7 +55,7 @@ Once complete database was created, wrote queries to generate the following:
 The name of Employee with employee ID number 499942 is "April Foolsday".
 
 #### Resources:
-* ERD [ERD.jpg]'EmployeeSQL/Data_Modeling/ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
+* ERD [ERD.jpg](EmployeeSQL/Data_Modeling/ERD.jpg) is saved in the folder 'EmployeeSQL/Data_Modeling'.
 
 * SQl file [Employee_Info_schema.sql](EmployeeSQL/SQL_Files/Employee_Info_schema.sql) contains table scheme
 
