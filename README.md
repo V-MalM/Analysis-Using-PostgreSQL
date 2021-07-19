@@ -7,7 +7,7 @@ Research on employees of Pewlett Hackard from the 1980s and 1990s from the data 
 The goal was to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, to perform:
 
 1. Data Modeling
-Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/data_Modeling/ERD.jpg)
+Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/Data_Modeling/ERD.jpg)
 
 2. Data Engineering
 
