@@ -58,10 +58,10 @@ Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL
 2. Used .gitignore to safeguard userid and password
 
 2. Created a histogram to visualize the most common salary ranges for employees.
-
-![histogram.png](EmployeeSQL/Images/histogram.jpg)
+![histogram.jpg](EmployeeSQL/Images/histogram.jpg)
 
 3. Created a bar chart of average salary by title.
+![bar.jpg](EmployeeSQL/Images/bar.jpg)
 
 #### Epilogue
 
