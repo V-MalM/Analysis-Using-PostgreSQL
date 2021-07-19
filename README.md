@@ -46,7 +46,7 @@ Once complete database was created, wrote queries to generate the following:
 
 2. Used .gitignore to safeguard userid and password
 
-2. Createed a histogram to visualize the most common salary ranges for employees.
+2. Created a histogram to visualize the most common salary ranges for employees.
 
 3. Created a bar chart of average salary by title.
 
@@ -57,10 +57,8 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 #### Resources:
 * ERD 'ERD.jpg' saved in the folder 'EmployeeSQL/Data_Modeling'.
 
-* SQl file [Employee_Info_schema.sql]'(EmployeeSQL/SQL_Files/Employee_Info_schema.sql)' contains table scheme
+* SQl file [Employee_Info_schema.sql]('EmployeeSQL/SQL_Files/Employee_Info_schema.sql') contains table scheme
 
-* SQl file [Employee_Info_queries.sql]'(EmployeeSQL/SQL_Files/Employee_Info_queries.sql)' contains queries required for analysis/reports
+* SQl file [Employee_Info_queries.sql]('EmployeeSQL/SQL_Files/Employee_Info_queries.sql') contains queries required for analysis/reports
 
-* SQl file 'Employee_Info_queries.sql' for queries is in [EmployeeSQL/SQL_Files](EmployeeSQL/SQL_Files/).
-
-* Jupyter Notebook [bonus_analysis.ipynb]'(bonus_analysis.ipynb)' contains the bonus analysis and visualization.
+* Jupyter Notebook [bonus_analysis.ipynb]('bonus_analysis.ipynb') contains the bonus analysis and visualization.
