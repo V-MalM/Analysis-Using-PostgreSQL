@@ -61,4 +61,4 @@ The name of Employee with employee ID number 499942 is "April Foolsday".
 
 * SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
 
-* Jupyter Notebook [bonus_analysis.ipynb](bonus_analysis.ipynb) contains the bonus analysis and visualization.
+* Jupyter Notebook [bonus_analysis.ipynb](EmployeeSQL/bonus_analysis.ipynb) contains the bonus analysis and visualization.
