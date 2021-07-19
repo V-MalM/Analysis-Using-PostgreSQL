@@ -33,7 +33,7 @@ Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL
 
 3. Data Analysis
 
-Once complete database was created, wrote queries to generate the following:
+* Once complete database was created, wrote queries to generate the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -51,7 +51,7 @@ Once complete database was created, wrote queries to generate the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Visualization of the data:
+#### Visualization of the data:
 
 1. Imported the SQL database into Pandas using SQLAlchemy.
 
@@ -59,9 +59,11 @@ Once complete database was created, wrote queries to generate the following:
 
 2. Created a histogram to visualize the most common salary ranges for employees.
 
+![histogram.png](EmployeeSQL/Images/histogram.jpg)
+
 3. Created a bar chart of average salary by title.
 
-## Epilogue
+#### Epilogue
 
 The name of Employee with employee ID number 499942 is "April Foolsday".
 
