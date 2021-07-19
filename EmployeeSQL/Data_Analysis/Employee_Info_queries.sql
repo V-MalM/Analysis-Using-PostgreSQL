@@ -1,8 +1,8 @@
 ﻿-- 1. List the following details of each employee: 
 -- employee number, last name, first name, sex, and salary.
 
-SELECT e.emp_no as "employee number", e.last_name as "last name", 
-e.first_name as "first name", e.sex, s.salary
+SELECT e.emp_no as "Employee Number", e.last_name as "Last Name", 
+e.first_name as "First Name", e.sex as "Sex", s.salary as "Salary"
     FROM employees e 
 INNER JOIN salaries s 
     ON e.emp_no = s.emp_no 
@@ -22,7 +22,7 @@ hire_date as "Hire Date"
 -- department number, department name, the manager's employee number, last name, first name.
 
 SELECT d.dept_no as "Department Number", d.dept_name as "Department Name", 
-dm.emp_no as "Manager's Employee Number", e.last_name as "Last Name",  
+dm.emp_no as "Manager Employee Number", e.last_name as "Last Name",  
 e.first_name as "First Name"
 	FROM departments d 
 INNER JOIN dept_manager dm 
