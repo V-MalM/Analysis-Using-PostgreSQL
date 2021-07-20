@@ -23,9 +23,10 @@ The goal was to design the tables to hold data in the CSVs, import the CSVs into
   * Made sure to create tables in the correct order to handle foreign keys.
 
 * Imported each CSV file into the corresponding SQL table. Made sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
-* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
+
 
 #### 3. Data Analysis
+* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
 
 * Once complete database was created, wrote queries to generate the following:
 
