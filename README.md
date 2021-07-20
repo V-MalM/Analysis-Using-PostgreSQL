@@ -26,24 +26,32 @@ The goal was to design the tables to hold data in the CSVs, import the CSVs into
 
 
 #### 3. Data Analysis
-* Once complete database was created, wrote queries to generate the following:
-* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
+
+* Once complete database was created, wrote queries that are in SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) that are required for following analysis :
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+![Q1.jpg](EmployeeSQL/Images/Qry1.jpg)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
+![Q2.jpg](EmployeeSQL/Images/Qry2.jpg)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+![Q3.jpg](EmployeeSQL/Images/Qry3.jpg)
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+![Q4.jpg](EmployeeSQL/Images/Qry4.jpg)
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+![Q5.jpg](EmployeeSQL/Images/Qry5.jpg)
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+![Q6.jpg](EmployeeSQL/Images/Qry6.jpg)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![Q7.jpg](EmployeeSQL/Images/Qry7.jpg)
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+![Q8.jpg](EmployeeSQL/Images/Qry8.jpg)
 
 #### Visualization of the data:
 * Jupyter Notebook [bonus_analysis.ipynb](EmployeeSQL/bonus_analysis.ipynb) contains the bonus analysis and visualization.

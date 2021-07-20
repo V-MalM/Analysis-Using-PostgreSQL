@@ -10,7 +10,6 @@ ORDER BY e.last_name;
 
 
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
--- List first name, last name, and hire date for employees who were hired in 1986.
 SELECT first_name as "First Name", last_name as "Last Name", 
 hire_date as "Hire Date"
 	FROM employees
@@ -59,18 +58,20 @@ where d.dept_name = 'Sales' order by  "Last Name";
 --7. List all employees in the Sales and Development departments,
 -- including their employee number, last name, first name, and department name.
 
-SELECT e.emp_no as "Employee Number", e.last_name AS "Last Name", e.first_name AS "First Name", d.dept_name
+SELECT e.emp_no as "Employee Number", e.last_name AS "Last Name", 
+e.first_name AS "First Name", d.dept_name
 as "Department Name" 
 FROM employees e 
 INNER JOIN dept_emp de ON e.emp_no = de.emp_no
 inner join departments d on de.dept_no = d.dept_no
-where d.dept_name = 'Sales' or d.dept_name = 'Development'  order by "Last Name", "Department Name" ;
+where d.dept_name = 'Sales' or d.dept_name = 'Development'  order by "Last Name", "First Name",
+"Department Name" ;
 
 
 --8. In descending order, list the frequency count of employee 
 -- last names, i.e., how many employees share each last name.
 
-SELECT last_nameAS "Last Name", count(last_name) as "No of Employees"
+SELECT last_name AS "Last Name", count(last_name) as "No of Employees"
 FROM employees e 
 Group By last_name order by "No of Employees" desc, last_name;
 
