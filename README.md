@@ -6,23 +6,16 @@
 Research on employees of Pewlett Hackard from the 1980s and 1990s from the data of employees from that period stored in six CSV files.
 The goal was to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, to perform:
 
-#### Resources:
-* ERD [ERD.jpg](EmployeeSQL/Images/ERD.jpg) is saved in the folder [EmployeeSQL/Images/](EmployeeSQL/Images/)
-
-* SQl file [Employee_Info_schema.sql](EmployeeSQL/SQL_Files/Employee_Info_schema.sql) contains table scheme
-
-* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
-
-* Jupyter Notebook [bonus_analysis.ipynb](EmployeeSQL/bonus_analysis.ipynb) contains the bonus analysis and visualization.
-
 #### Execution :
 
-1. Data Modeling
-Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/Images/ERD.jpg)
+#### 1. Data Modeling
+* Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL/Images/ERD.jpg)
+  * ERD [ERD.jpg](EmployeeSQL/Images/ERD.jpg) is saved in the folder [EmployeeSQL/Images/](EmployeeSQL/Images/)
 
-2. Data Engineering
+#### 2. Data Engineering
 
 * Using the information, created a table schema for each of the six CSV files with correct data types, primary keys, foreign keys, and other constraints.
+* SQl file [Employee_Info_schema.sql](EmployeeSQL/SQL_Files/Employee_Info_schema.sql) contains table schema
 
   * Created primary keys to check to see if the column is unique, and composite keys (where required) to uniquely identify a row.
     * Composite keys used in 'salaries', 'dept_emp', 'dept_manager' tables.
@@ -30,8 +23,9 @@ Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL
   * Made sure to create tables in the correct order to handle foreign keys.
 
 * Imported each CSV file into the corresponding SQL table. Made sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
+* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
 
-3. Data Analysis
+#### 3. Data Analysis
 
 * Once complete database was created, wrote queries to generate the following:
 
@@ -52,6 +46,7 @@ Inspected the CSVs and sketched out an ERD of the tables. ![sql.png](EmployeeSQL
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 #### Visualization of the data:
+* Jupyter Notebook [bonus_analysis.ipynb](EmployeeSQL/bonus_analysis.ipynb) contains the bonus analysis and visualization.
 
 1. Imported the SQL database into Pandas using SQLAlchemy.
 
