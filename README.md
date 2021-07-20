@@ -26,9 +26,8 @@ The goal was to design the tables to hold data in the CSVs, import the CSVs into
 
 
 #### 3. Data Analysis
-* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
-
 * Once complete database was created, wrote queries to generate the following:
+* SQl file [Employee_Info_queries.sql](EmployeeSQL/SQL_Files/Employee_Info_queries.sql) contains queries required for analysis/reports
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
