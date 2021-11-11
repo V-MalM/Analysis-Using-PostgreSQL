@@ -1,5 +1,3 @@
-# sql-challenge
-
 ![sql.png](EmployeeSQL/Images/sql.png)
 
 ## Project Description 
